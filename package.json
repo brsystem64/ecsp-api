@@ -1,0 +1,33 @@
+{
+  "name": "ecsp-api",
+  "version": "1.0.0",
+  "description": "estatistica criminal estado de sao paulo - api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/api",
+    "swagger-autogen": "node src/swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brsystem64/ecsp-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Bruno Bastos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brsystem64/ecsp-api/issues"
+  },
+  "homepage": "https://github.com/brsystem64/ecsp-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^2.4.2",
+    "sequelize": "^6.3.5",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "nodemon": "^2.0.4"
+  }
+}
