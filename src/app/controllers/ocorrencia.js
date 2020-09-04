@@ -1,7 +1,7 @@
 const models = require('./../models');
 const AnoInvalid = require('../../Exception/AnoInvalid');
 
-const isAnoValido = ano => (ano > 2000 && ano < new Date().getFullYear());
+const isAnoValido = ano => (ano > 2000 && ano <= new Date().getFullYear());
 
 async function all(req, res){
     res.send(
